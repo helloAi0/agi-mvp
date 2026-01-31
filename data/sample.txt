@@ -1,0 +1,3 @@
+Artificial intelligence is the simulation of human intelligence in machines.
+Language models learn statistical patterns in text.
+Transformers use attention mechanisms to model long-range dependencies.

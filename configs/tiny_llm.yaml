@@ -1,0 +1,13 @@
+model:
+  vocab_size: 8000        # tokenizer vocabulary size
+  n_layers: 6             # transformer blocks
+  n_heads: 6              # attention heads
+  hidden_size: 384        # embedding dimension
+  mlp_ratio: 4            # FFN = hidden_size * mlp_ratio
+  max_seq_len: 2048       # context length
+
+training:
+  batch_size: 2
+  lr: 3e-4
+  epochs: 2
+  grad_clip: 1.0
